@@ -56,40 +56,41 @@
                 </div>
             </nav>
         </header>
-        <!-- CONTENIDO VIEJO - FORMATEAR PARA NUEVO DISEÑO -->
-        <div class="entradaSoporte">
-            <p>Necesitas ayuda tecnica con tu PC? Envianos tu consulta, y un tecnico se comunicara a la brevedad con
-                usted</p>
-            <br><br>
+        <br><br>
+        <!-- Contenido Soporte -->
+        <div class="container">
+            <h3>Tenes Problemas con tu PC?</h3>
+            <p fs-2>En TechNow te podemos ayudar! Completa el formulario con tus datos, y un tecnico se contactara a la brevedad</p>
+            <br>
             <form>
-                <fieldset>
-                    <legend>Dejanos tu solicitud</legend>
-                    <br>
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" type="text">
-                    <br><br>
-                    <label for="apellido">E-Mail</label>
-                    <input id="email" type="email">
-                    <br><br>
-                    <label for="email">Describa aqui su problema</label>
-                    <input id="consulta" type="text">
-                    <br>
-                    <br>
-                    <label for="check">Entiendo que este servicio tiene un costo adicional que sera informado en el
-                        primer contacto</label>
-                    <input type="checkbox" id="check">
-                    <br><br>
-                    <input type="submit">
-                    <input type="reset">
-                </fieldset>
+              
+                <div class="mb-3">
+                    <label for="entradaNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="entradaNombre">
+                </div>
+                <div class="mb-3">
+                    <label for="descripcionProblemas" class="form-label">Direccion de E-Mail</label>
+                    <input type="email" class="form-control" id="descripcionProblemas"">
+                    <div id="emailHelp" class="form-text">No compartiremos tu E-Mail con nadie.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="descripcionProblemas" class="form-label">Describa su Problema</label>
+                    <input type="text" class="form-control" id="descripcionProblemas">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="acceptarCargos">
+                    <label class="form-check-label" for="acceptarCargos">Entiendo que este servicio tiene un costo el cual me sera informado por mail</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
         <br> <br>
         <footer class="footer mt-auto py-3">
             <div class="container d-flex justify-content-center">
-              <span class="text-center">Todos los Derechos Reservados - Technow 2020</span>
+                <span class="text-center">Todos los Derechos Reservados - Technow 2020</span>
             </div>
-          </footer>
+        </footer>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
