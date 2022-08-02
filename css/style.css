@@ -3,6 +3,7 @@
 /* Variables weight: 300 light // 400 Regular // 600 SemiBold*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
 
+*
 /* Color de background y fuente general*/
 body {
   font-family: "Montserrat", sans-serif;
@@ -15,4 +16,6 @@ footer, .navbar{
   background: linear-gradient(to right, #92fe9d, #00c9ff);
   box-shadow: 0 3px 15px rgb(88, 88, 88);
 }
+
+
 
