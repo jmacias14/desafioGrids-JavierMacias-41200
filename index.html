@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Las Keywords ya no se utilizan ya que los SE las ignoran -->
+    <meta name="keywords" content="Hardware, Computacion, Informatica, Venta">
+    <meta name="description" content="Venta de Hardware en Argentina, servicio tecnico remoto las 24 horsas">
+    <title>Inicio | TechNow</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Uso para icono de Carrito -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR BOOTSTRAP -->
+        <nav class="navbar navbar-expand-lg bg-light mb-4 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo-technow.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                    <ul class="navbar-nav fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/esports.html">E-Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/soporte.html">Soporte Tecnico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                    fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Carrousel Publicidad -->
+    <div id="carouselExampleControls" class="carousel slide" class="mse-2" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/promoNvidia.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/promoAorus.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Productos Destacados -->
+    <h1 class="text-center fs-1 mt-4 mb-3">Productos Destacados</h1>
+    <div class="container d-flex justify-content-around">
+        <div class="row ">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/products/featured/asus-rog-gladius .jpg" class="card-img-top p-3 img-thumbnail rounded-0"
+                        alt="Mouse ASUS Gladius II">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mouse ASUS ROG Gladius II Wireless</h5>
+                        <a href="#" class="btn btn-primary btn-outline-dark fw-semibold">$9.999</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/products/featured/hyperx-alloy-elite.jpg" class="card-img-top p-3 img-thumbnail rounded-0"
+                        alt="Teclado HyperX Alloy Elite">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Teclado Mecanico HyperX Alloy Elite</h5>
+                        <a href="#" class="btn btn-primary btn-outline-dark fw-semibold">$12.499</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/products/featured/logi-g733-lila.jpg" class="card-img-top p-3 img-thumbnail rounded-0"
+                        alt="G733 Logitech Auriculares">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Auriculares Logitech G733</h5>
+                        <a href="#" class="btn btn-primary btn-outline-dark fw-semibold">$22.000</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/products/featured/zenbook-duo.jpg" class="card-img-top p-3 img-thumbnail rounded-0"
+                        alt="Zenbook Duo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">ASUS Zenbook Duo 14"</h5>
+                        <a href="#" class="btn btn-primary btn-outline-dark fw-semibold">$512.999</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5 py-3">
+        <div class="container d-flex justify-content-center">
+            <span class="text-center">Todos los Derechos Reservados - Technow 2020</span>
+        </div>
+    </footer>
+
+    <!-- Script Bootstrap     -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
