@@ -2,7 +2,7 @@
 /* call: font-family: 'Montserrat', sans-serif; */
 /* Variables weight: 300 light // 400 Regular // 600 SemiBold*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
-*
+/* Color de background y fuente general*/
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #f0f0f0; }
@@ -14,14 +14,18 @@ footer, .navbar {
   background: linear-gradient(to right, #92fe9d, #00c9ff);
   box-shadow: 0 3px 15px #585858; }
 
+/* Botones */
 .btn {
-  background-color: #92fe9d; }
+  background: #92fe9d; }
 
-.card {
-  background-color: lightgrey;
+/* Tarjetas Productos*/
+.tarjetaProducto {
   border: -1px;
-  border-radius: 0%;
-  box-shadow: 0 1px 2px #585858; }
+  border-radius: 0%; }
+
+/*Caracteristicas pagina producto*/
+.listaSpecs {
+  border-radius: 0%; }
 
 /*Limites Carrousel Pagina Productos*/
 .carrouselPaginaProducto {
