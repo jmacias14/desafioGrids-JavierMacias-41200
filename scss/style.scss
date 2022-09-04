@@ -29,3 +29,10 @@ footer, .navbar{
     border-radius: 0%;
     box-shadow: 0 1px 2px rgb(88, 88, 88);
 }
+
+/*Limites Carrousel Pagina Productos*/
+
+.carrouselPaginaProducto{
+  max-width: 450px;
+  max-height: 402px;
+}
